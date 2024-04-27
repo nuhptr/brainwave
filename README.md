@@ -2,6 +2,12 @@
 
 Building a landing page for Brainwave using Vite and React. Also, using Tailwind CSS for styling.
 
+## General Dependencies
+
+-  [React Router Dom](https://reactrouter.com/web/guides/quick-start) - bun add react-router-dom
+-  [React Just Parallax](https://www.npmjs.com/package/react-just-parallax) - bun add react-just-parallax
+-  [Scroll Lock](https://www.npmjs.com/package/scroll-lock) - bun add scroll-lock
+
 ## Tailwind CSS Setup With Plugin
 
 1. Install Tailwind CSS and its dependencies:
