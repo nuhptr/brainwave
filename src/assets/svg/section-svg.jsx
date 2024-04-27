@@ -1,4 +1,4 @@
-import PlusSvg from "./PlusSvg"
+import PlusSvg from "./plus-svg"
 
 export default function SectionSvg({ crossesOffset }) {
    return (
