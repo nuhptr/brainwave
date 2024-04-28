@@ -1,5 +1,5 @@
-import Header from "./components/section/header"
-import Hero from "./components/section/hero"
+import Header from "./sections/header"
+import Hero from "./sections/hero"
 
 import ButtonGradient from "./assets/svg/button-gradient"
 
