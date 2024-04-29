@@ -1,4 +1,4 @@
-export default function brackets(position) {
+export default function Brackets(position) {
    return position === "left" ? (
       <svg width="5" height="14" viewBox="0 0 5 14" fill="none" xmlns="http://www.w3.org/2000/svg">
          <path d="M5 0.822266H1V12.8223H5" stroke="url(#brackets-left)" />

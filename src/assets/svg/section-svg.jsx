@@ -1,5 +1,4 @@
 import PlusSvg from "./plus-svg"
-
 import { cn } from "../../lib/utils"
 
 export default function SectionSvg({ crossesOffset }) {
@@ -14,7 +13,7 @@ export default function SectionSvg({ crossesOffset }) {
 
          <PlusSvg
             className={cn(
-               "hidden absolute  -top-[0.3125rem] right-[1.5625rem] pointer-events-none lg:block xl:right-[2.1875rem]",
+               "hidden absolute -top-[0.3125rem] right-[1.5625rem] pointer-events-none lg:block xl:right-[2.1875rem]",
                crossesOffset && crossesOffset
             )}
          />
