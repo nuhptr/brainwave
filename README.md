@@ -1,6 +1,6 @@
 # Brainwave Landing Page
 
-<img width="1440" alt="brainwave" src="https://github.com/nuhptr/brainwave/assets/50306963/697c6317-4b3b-4d10-be0c-8b0feb297eb3">
+<img width="1440" alt="brainwave" src="https://github.com/nuhptr/brainwave/assets/50306963/317ece44-0a9a-418c-aad0-f4bbd1f19816">
 
 Building a landing page for Brainwave using Vite and React. Also, using Tailwind CSS for styling.
 
