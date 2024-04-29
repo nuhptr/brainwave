@@ -1,14 +1,14 @@
 import { imgNotification1 } from "../assets"
+
 import { notificationImages } from "../constants"
-notificationImages
 import { cn } from "../lib/utils"
 
 export default function Notification({ className, title }) {
    return (
       <div
          className={cn(
-            className || "",
-            "flex items-center p-4 pr-6 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl gap-5"
+            "flex items-center p-4 pr-6 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl gap-5",
+            className || ""
          )}>
          <img
             src={imgNotification1}
