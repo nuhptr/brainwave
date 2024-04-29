@@ -124,7 +124,7 @@ import icBenefitIcon1 from "./benefits/ic_icon-1.svg"
 import icBenefitIcon2 from "./benefits/ic_icon-2.svg"
 import icBenefitIcon3 from "./benefits/ic_icon-3.svg"
 import icBenefitIcon4 from "./benefits/ic_icon-4.svg"
-import icBenefitImage2 from "./benefits/img_image-2.png"
+import imgBenefit2 from "./benefits/img_image-2.png"
 
 export {
    icBenefitCard1,
@@ -137,7 +137,7 @@ export {
    icBenefitIcon2,
    icBenefitIcon3,
    icBenefitIcon4,
-   icBenefitImage2,
+   imgBenefit2,
 }
 
 // Socials Assets
