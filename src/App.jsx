@@ -1,17 +1,18 @@
-import Header from "./sections/header"
-import Hero from "./sections/hero"
-import Benefits from "./sections/benefits"
-import Collaboration from "./sections/collaboration"
-import Services from "./sections/services"
-import Roadmap from "./sections/roadmap"
-import Footer from "./sections/footer"
-import Pricing from "./sections/pricing"
+import { Header } from "./components/main/Headers"
+import { Hero } from "./components/main/Hero"
+import { Benefits } from "./components/main/Benefit"
+import { Collaboration } from "./components/main/Collaborations"
+import { Services } from "./components/main/Service"
+import { Roadmap } from "./components/main/Roadmaps"
+import { Footer } from "./components/main/Footers"
+import { Pricing } from "./components/main/Pricings"
 
-import ButtonGradient from "./assets/svg/button-gradient"
+import { ButtonGradient } from "./components/svg/ButtonGradient"
 
 export default function App() {
    return (
       <>
+         {/* 4.75rem = 76px && 5.25rem = 84px */}
          <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
             <Header />
             <Hero />
@@ -22,7 +23,6 @@ export default function App() {
             <Roadmap />
             <Footer />
          </div>
-
          <ButtonGradient />
       </>
    )

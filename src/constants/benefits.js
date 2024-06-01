@@ -1,0 +1,60 @@
+import {
+   icBenefitIcon1,
+   icBenefitIcon2,
+   imgBenefit2,
+   icBenefitIcon3,
+   icBenefitIcon4,
+} from "../assets"
+
+export const benefits = [
+   {
+      id: "0",
+      title: "Ask anything",
+      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      backgroundUrl: "./src/assets/benefits/ic_card-1.svg",
+      iconUrl: icBenefitIcon1,
+      imageUrl: imgBenefit2,
+   },
+   {
+      id: "1",
+      title: "Improve everyday",
+      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      backgroundUrl: "./src/assets/benefits/ic_card-2.svg",
+      iconUrl: icBenefitIcon2,
+      imageUrl: imgBenefit2,
+      light: true,
+   },
+   {
+      id: "2",
+      title: "Connect everywhere",
+      text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+      backgroundUrl: "./src/assets/benefits/ic_card-3.svg",
+      iconUrl: icBenefitIcon3,
+      imageUrl: imgBenefit2,
+   },
+   {
+      id: "3",
+      title: "Fast responding",
+      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      backgroundUrl: "./src/assets/benefits/ic_card-4.svg",
+      iconUrl: icBenefitIcon4,
+      imageUrl: imgBenefit2,
+      light: true,
+   },
+   {
+      id: "4",
+      title: "Ask anything",
+      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      backgroundUrl: "./src/assets/benefits/ic_card-5.svg",
+      iconUrl: icBenefitIcon1,
+      imageUrl: imgBenefit2,
+   },
+   {
+      id: "5",
+      title: "Improve everyday",
+      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      backgroundUrl: "./src/assets/benefits/ic_card-6.svg",
+      iconUrl: icBenefitIcon2,
+      imageUrl: imgBenefit2,
+   },
+]
